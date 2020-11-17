@@ -20,13 +20,15 @@ public class LaunchActivity extends AppCompatActivity {
                 getSharedPreferences( getString( R.string.preference_file_key ), Context.MODE_PRIVATE );
 
         if(sharedPref.contains(TOKEN_KEY)){
-            //TODO go to MainActivity
+            //Go to MainActivity
             Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
+            this.finish();
         }else{
-            //TODO go to LoginActivity
+            //Go to LoginActivity
             Intent intent = new Intent(this, LoginActivity.class);
             startActivity(intent);
+            this.finish();
         }
     }
 }

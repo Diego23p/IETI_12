@@ -49,12 +49,33 @@ Para descargar localmente el repositorio se utiliza el comando como sigue:
 git clone https://github.com/Diego23p/IETI_12.git
 ```
 
-## Parte 1: Actividad de inicio y actividad de inicio de sesión
+## Parte 1: Actividad lanzamineto y actividad de Login
 
 Usuario: diego.puerto
 
-Contraseña: testPW
+Contraseña: test
 
 ![](/img/1.png)
 
 ![](/img/2.png)
+
+![](/img/3.png)
+
+## Parte 2: Implementación de capa de red
+
+- Al inicial correctamente re redirige a ```MainActivity``` (con el botón de correo se da una mensaje de bienvenida al usuario logueado que fue almacenado en ```SharedPreferences```):
+
+![](/img/4.png)
+
+- Se cierra la aplicación:
+
+![](/img/5.png)
+
+y se comprueba que al abrirla entra directamente a ```MainActivity```, persiste la información del email en ```SharedPreferences```
+
+![](/img/6.png)
+
+- El botón ```LOGOUT``` redirige a ```LoginActivity```
+
+![](/img/7.png)
+![](/img/8.png)
