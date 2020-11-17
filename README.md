@@ -63,7 +63,7 @@ Contraseña: test
 
 ## Parte 2: Implementación de capa de red
 
-- Al inicial correctamente re redirige a ```MainActivity``` (con el botón de correo se da una mensaje de bienvenida al usuario logueado que fue almacenado en ```SharedPreferences```):
+- Al inicial correctamente re redirige a ```MainActivity``` (con el botón de correo se da un mensaje de bienvenida al usuario logueado que fue almacenado en ```SharedPreferences```):
 
 ![](/img/4.png)
 
@@ -77,5 +77,5 @@ y se comprueba que al abrirla entra directamente a ```MainActivity```, persiste 
 
 - El botón ```LOGOUT``` redirige a ```LoginActivity```
 
-![](/img/7.png)
+![](/img/7.png) -------->
 ![](/img/8.png)
